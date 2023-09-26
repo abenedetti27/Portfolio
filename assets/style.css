@@ -1,5 +1,6 @@
 * {
     background-color: rgb(242, 154, 242);
+    
 }
 
 body {
@@ -70,11 +71,10 @@ nav a:hover {
     border-style:solid;
     border-width: 2px;
     color: #f2f2f2;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
-    
 
 .container img {
     display: flex;
@@ -84,9 +84,18 @@ nav a:hover {
 .container .value-column{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 
 @media screen and (max-width: 992px) {
     section {
