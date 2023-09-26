@@ -20,6 +20,7 @@ When the page is resized or viewed on various screens and devices, the layout is
 
 Below are examples of CSS media queries and navigation element to make the page responsive:
 
+```css
 @media screen and (max-width: 992px) {
     section {
       width: 90%;
@@ -34,20 +35,10 @@ Below are examples of CSS media queries and navigation element to make the page 
         section {
           width: 99%;
         }
-    }
-
- li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+}
+```
+```css
   
-
-ul a:hover {
-    background-color: #111;
-  }
 nav a {
     float: left;
     color: #9bf4d3;
@@ -62,6 +53,7 @@ nav a:hover {
     background-color: #9bf4d3;
     color: black;
 }
+```
 
 ## License
 
@@ -69,5 +61,3 @@ MIT License
 
 Copyright (c) [2023] [Anna Rose Benedetti]
 
-
----
