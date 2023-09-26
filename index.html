@@ -11,7 +11,35 @@
 
     <body>
         <header>
+            <!--recent photo-->
             <img src="./assets/images/portfolio.jpg" alt="Anna-in-Porto" style="width:50%">
+            <!--when clicking on nav tiles, page scrolls to corresponding section
+             li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+ul a:hover {
+    background-color: #111;
+  }
+nav a {
+    float: left;
+    color: #9bf4d3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+    display: flex;
+}
+
+nav a:hover {
+    background-color: #9bf4d3;
+    color: black;
+}-->
             <nav>
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
@@ -37,11 +65,11 @@
             <section id="Projects">
                 <h2>Projects</h2>
             </section>
-                
+                <!--main project has a larger image and links to deplayed site-->
                 <h3>Code Refactor</h3>
                         <a href="https://abenedetti27.github.io/sustain-the-groove/">
                         <img src="./assets/images/Refactor.png" alt="screen shot of website code-refactor" style="width:85%" >
-                    </a>   
+                <!--allows images to list horizontally if screen size allows-->    </a>   
                 <li class="list-projects">
                     <h3>Project Placeholder</h3>
                     <img src="./assets/images/cute bunny 1.jpeg" alt="second-project" style="width:75%">
@@ -63,7 +91,22 @@
         </footer>
     </body>
 
-
+<!--media queries for resizing the page based on device
+@media screen and (max-width: 992px) {
+    section {
+      width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+        section {
+          width: 95%;
+        }
+    }
+@media screen and (max-width: 500px) {
+        section {
+          width: 99%;
+        }
+    }-->
 
 
 

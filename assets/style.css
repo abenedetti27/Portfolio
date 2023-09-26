@@ -15,7 +15,7 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-  
+/* when clicking on nav tiles, page scrolls to corresponding section*/
   li {
     float: left;
   }
@@ -96,6 +96,7 @@ nav a:hover {
   color: white;
   text-align: center;
 }
+/*-media queries for resizing the page based on device
 
 @media screen and (max-width: 992px) {
     section {
